@@ -1,0 +1,32 @@
+{
+  "name": "ts-axios",
+  "version": "1.0.0",
+  "description": "用 typescript 重构 axios",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "sh deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsnds/ts-axios.git"
+  },
+  "keywords": [
+    "axios",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsnds/ts-axios/issues"
+  },
+  "homepage": "https://github.com/nsnds/ts-axios#readme",
+  "dependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
